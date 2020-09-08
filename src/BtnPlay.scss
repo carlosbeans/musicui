@@ -1,0 +1,21 @@
+/* elevation / ground_3 */
+$elevation_ground_3: 0px 32px 48px rgba(0, 0, 0, 0.75);
+
+.playBtn {
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #fff;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;    
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;    
+    box-shadow: $elevation_ground_3;
+    -webkit-font-smoothing: antialiased;
+}
